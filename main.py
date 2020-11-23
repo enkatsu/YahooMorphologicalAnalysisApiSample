@@ -16,8 +16,8 @@ CLIENT_ID = os.environ.get('CLIENT_ID')
 def request_yahoo_api(text: str) -> ET.Element:
     """
     Yahoo!の形態素解析APIを使用する関数
-    .envのDEBUGがfalseなら実際にHTTPリクエストを行う。
-    空白ならHTTPリクエストは行わず、ローカルのファイルを開いく。
+    .envのDEBUGが空なら実際にHTTPリクエストを行う。
+    空以外ならHTTPリクエストは行わず、ローカルのファイルを開いく。
     :param text:
     :return:
     """
