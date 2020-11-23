@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResultSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:yahoo:jp:jlp"
+           xsi:schemaLocation="urn:yahoo:jp:jlp https://jlp.yahooapis.jp/MAService/V1/parseResponse.xsd">
+    <ma_result>
+        <total_count>8</total_count>
+        <filtered_count>8</filtered_count>
+        <word_list>
+            <word>
+                <surface>こんにちは</surface>
+                <reading>こんにちは</reading>
+                <pos>感動詞</pos>
+            </word>
+            <word>
+                <surface>。</surface>
+                <reading>。</reading>
+                <pos>特殊</pos>
+            </word>
+            <word>
+                <surface>今日</surface>
+                <reading>きょう</reading>
+                <pos>名詞</pos>
+            </word>
+            <word>
+                <surface>も</surface>
+                <reading>も</reading>
+                <pos>助詞</pos>
+            </word>
+            <word>
+                <surface>寒い</surface>
+                <reading>さむい</reading>
+                <pos>形容詞</pos>
+            </word>
+            <word>
+                <surface>です</surface>
+                <reading>です</reading>
+                <pos>助動詞</pos>
+            </word>
+            <word>
+                <surface>ね</surface>
+                <reading>ね</reading>
+                <pos>助詞</pos>
+            </word>
+            <word>
+                <surface>。</surface>
+                <reading>。</reading>
+                <pos>特殊</pos>
+            </word>
+        </word_list>
+    </ma_result>
+</ResultSet>
